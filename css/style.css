@@ -1,0 +1,42 @@
+body{ background: #F1F1F1 url(../images/bg.jpg) repeat-x 0 top; font-family:"微软雅黑"; }
+
+.top{ height: 118px;  }
+.top .logo{ margin-top: 40px; }
+.top .search{ margin-top:40px; }
+.top .search .msg{ width: 200px; height: 30px;border: 1px solid #DEDEDE; background: #F5F5F5; }
+.top .search .btn{ width: 54px; height: 30px; border-radius: 5px; background: #F00; color:#FFF; }
+
+.nav{ height: 44px; background: url(../images/bg1.jpg) repeat-x; border-radius:7px; }
+.nav li{ float:left; width:12.5%; height: 44px; }
+.nav li a{ display: inline-block; width: 100%; height: 44px; text-align:center; line-height:44px; text-decoration: none; font-weight:bold; font-size:14px; color:#FFF;  }
+.nav li.one{ background: url(../images/bg3.jpg) repeat-x; border-radius:7px; }
+
+.banner{ margin-top:65px; }
+.banner .container-fluid{ width: 100%; height: 307px; background:#383838; }
+.banner img{ width: 98%; margin-top:-38px; }
+
+.contents{ height: 500px; background: #E8E8E8; margin-top:125px; }
+.contents li.title h3{ color:#F00; }
+.contents li.about-jpg img{ width: 100%; }
+.contents li.learn-more{ margin-bottom:30px; text-align:center; }
+.contents li.learn-more a{ width: 90px; height: 25px; background: #FFF; box-shadow:5px 5px #ccc; color:#999999; }
+.contents li.advantage{ width: 100%; height: 110px; border-bottom:1px ridge #D8D8D8; }
+.contents li.advantage ul li{ float: left; }
+.contents li.ad{ display:inline-block; height: 110px; width: 30%; line-height:110px; }
+.contents li.stitle,li.scontent{ width: 70%; font-size:13px; }
+.contents li.stitle{ line-height:26px; }
+.contents li.news{ width: 100%; height: 110px; border-bottom:1px ridge #D8D8D8;}
+.contents li.end{ border-bottom:none; }
+.contents li.ntitle,li.ncontent{ font-size:13px; }      
+
+.products{ margin-top:33px; }
+.products h3{ color:#F00; }
+
+.footer{ height:300px; background: #313131; margin-top:55px; }
+.footer .title{ height: 45px; background: #3D3D3D; border-bottom:1px ridge #181818; line-height:45px; }
+.title h3{ color:#FFF; }
+.footer .details{ height: 185px; color:#FFF; }
+.details li.telephone{ width: 100%; height: 80px; border-bottom:1px ridge #292929; }
+.details li.telephone div{ float:left; }
+.details li.telephone div.jpg img{ width: 100%; }
+.footer .bottom{ height: 70px; background: #181818; text-align:center; line-height:70px; color:#FFF; }
